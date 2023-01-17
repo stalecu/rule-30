@@ -8,6 +8,7 @@ packages = [{include = "rule_30"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+pyxel = "^1.9.11"
 
 
 [build-system]
