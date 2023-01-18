@@ -1,9 +1,12 @@
 # Rule 30
 ## Introduction
-![](/home/alecu/Poze/Screenshot_20230118_015419.png)
+![](demo.png)
 Rule 30 is an elementary celluluar automaton introduced by Stephen Wolfram in 1983. 
 
 The corresponding formula is really simple: [left_cell XOR (central_cell OR right_cell)].
+
+Canonically, Rule 30 has one seed from the middle of the top margin, but I decided to add several random seeds, all interacting with each other. Additionally, it has wrap around, as can be seen.
+
 
 ## How to run it
 You need Poetry (look [here](https://python-poetry.org) for more instructions), as well as Pyxel.
